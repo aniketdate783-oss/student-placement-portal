@@ -1,0 +1,1 @@
+<?php if(!empty($_SESSION['user_id'])):?></main><?php endif;?><footer>© <?=date('Y')?> CareerBridge · Student Placement Portal</footer><script src="<?=($base??'')?>assets/js/app.js"></script></body></html>

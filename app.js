@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.flash').forEach(x=>setTimeout(()=>x.remove(),4500));document.querySelectorAll('[data-toggle]').forEach(b=>b.onclick=()=>{let x=document.getElementById(b.dataset.toggle);x.type=x.type==='password'?'text':'password'});});
